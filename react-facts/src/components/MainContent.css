@@ -1,0 +1,32 @@
+main {
+    min-height: 100%;
+    padding: 55px;
+    color: whitesmoke;
+    background-image: url("../assets/react-half.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 90%;
+    background-size: contain;
+}
+
+.main--title {
+    margin-top: 0;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+}
+
+.main--facts {
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.main--facts > li {
+    padding-block: 8px;
+    line-height: 20px;
+}
+
+.main--facts > li::marker {
+    list-style: disc;
+    color: #00d8ff;
+    font-size: 2em;
+}
