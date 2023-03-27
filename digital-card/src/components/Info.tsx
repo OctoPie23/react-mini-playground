@@ -2,7 +2,7 @@ import "./Info.css";
 
 const Info = () => {
     return (
-        <main>
+        <div>
             <div className="image"></div>
             <div className="rectangle">
                 <div className="info">
@@ -35,7 +35,7 @@ const Info = () => {
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
     );
 };
 

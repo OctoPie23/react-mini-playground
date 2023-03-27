@@ -1,0 +1,20 @@
+.about {
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 520px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50%;
+    color: #f5f5f5;
+}
+
+.about-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    color: #dcdcdc;
+}
