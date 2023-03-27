@@ -1,0 +1,9 @@
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 800px;
+    background-color: #1c1c1c;
+}

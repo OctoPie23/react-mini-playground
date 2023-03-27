@@ -1,0 +1,92 @@
+.image {
+    position: relative;
+    width: 318px;
+    height: 309px;
+    left: 116px;
+    top: 50px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("../assets/my-image.jpg");
+}
+
+.rectangle {
+    position: absolute;
+    width: 318px;
+    height: 420px;
+    left: 116px;
+    top: 350px;
+    background: #1a1b21;
+}
+
+.name {
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.job-title {
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 4px;
+    text-align: center;
+    color: #f3bf99;
+}
+
+.website {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.linkedin-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 13px 9px 11px;
+    gap: 12px;
+}
+
+.linkedin {
+    background: #5093e2;
+    padding: 9px 15px 9px 16px;
+    border: 1px solid #5093e2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.email {
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    padding: 9px 17px 9px 17px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i {
+    margin-right: 8px;
+}

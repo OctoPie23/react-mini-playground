@@ -1,0 +1,15 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.card {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 50%;
+    top: 60px;
+    border-radius: 10px;
+    /* taking it to the center of the screen */
+    transform: translateX(-50%);
+    background: #23252c;
+}
