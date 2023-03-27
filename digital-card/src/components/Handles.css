@@ -1,0 +1,40 @@
+.social-handles {
+    position: absolute;
+    align-items: center;
+    width: 318px;
+    height: 60px;
+    left: 116px;
+    top: 770px;
+    background: #414147;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.hashnode {
+    position: absolute;
+    left: 43.27%;
+    right: 52.18%;
+    top: 30.75%;
+    bottom: 7.37%;
+}
+
+.github {
+    position: absolute;
+    left: 20.27%;
+    right: 52.18%;
+    top: 30.75%;
+    bottom: 7.37%;
+}
+
+.twitter {
+    position: absolute;
+    left: 66.27%;
+    right: 52.18%;
+    top: 30.75%;
+    bottom: 7.37%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
