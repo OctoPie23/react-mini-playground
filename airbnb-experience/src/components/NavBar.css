@@ -8,3 +8,9 @@ nav {
 .airbnbLogo {
     max-width: 180px;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}

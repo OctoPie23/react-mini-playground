@@ -6,11 +6,13 @@ const NavBar = () => {
         <div>
             <div className="navbar">
                 <nav>
-                    <img
-                        className="airbnbLogo"
-                        src={airbnbLogo}
-                        alt="Airbnb Logo"
-                    />
+                    <a href="#">
+                        <img
+                            className="airbnbLogo"
+                            src={airbnbLogo}
+                            alt="Airbnb Logo"
+                        />
+                    </a>
                 </nav>
             </div>
         </div>
