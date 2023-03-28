@@ -12,18 +12,8 @@ function App() {
             <Hero />
             <section className="cards-list">
                 {CardData.map((card) => {
-                    return (
-                        <Card
-                            coverImg={card.coverImg}
-                            description={card.title}
-                            rating={card.stats.rating}
-                            reviewCount={card.stats.reviewCount}
-                            location={card.location}
-                            price={card.price}
-                            key={card.id}
-                            openSpots={card.openSpots}
-                        />
-                    );
+                    // passing all the card property in the spread operator to prevent from clutter in the props
+                    return <Card key={card.id} {...card} />;
                 })}
             </section>
         </div>
