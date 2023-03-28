@@ -1,0 +1,23 @@
+section {
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-image {
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.title-description {
+    width: 850px;
+    overflow-wrap: break-word;
+    margin-top: 0;
+}
