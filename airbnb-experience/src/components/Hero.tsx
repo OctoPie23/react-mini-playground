@@ -1,4 +1,4 @@
-import groupImage from "../assets/grouped-photos.png";
+import groupImage from "../assets/general/grouped-photos.png";
 import "./Hero.css";
 
 const Hero = () => {
