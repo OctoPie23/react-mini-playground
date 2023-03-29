@@ -1,6 +1,19 @@
 import "./Card.css";
 
-const Card = (props: any) => {
+interface CardProps {
+    id: number | string;
+    title: string;
+    price: number;
+    coverImg: string;
+    stats: {
+        rating: number;
+        reviewCount: number;
+    };
+    location: string;
+    openSpots: number;
+}
+
+const Card = (props: CardProps) => {
     let badgeText;
     if (props.openSpots === 0) {
         badgeText = "SOLD OUT";
