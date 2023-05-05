@@ -5,7 +5,7 @@ const Handles = () => {
         <div className="container">
             <div className="social-handles">
                 <div className="github">
-                    <a href="https://github.com/OctoPie23" target={"_blank"}>
+                    <a href="https://github.com/shricodev" target={"_blank"}>
                         <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
                 </div>
@@ -15,7 +15,7 @@ const Handles = () => {
                     </a>
                 </div>
                 <div className="twitter">
-                    <a href="https://twitter.com/OctoPie23" target={"_blank"}>
+                    <a href="https://twitter.com/shricodev" target={"_blank"}>
                         <i className="fa-brands fa-twitter fa-2xl"></i>
                     </a>
                 </div>
