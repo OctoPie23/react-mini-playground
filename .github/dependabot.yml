@@ -6,6 +6,27 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # using npm will also use yarn
-    directory: "/" # Location of package manifests
+    directory: "/airbnb-experience" # Location of package manifests
     schedule:
       interval: "weekly"
+      
+  - package-ecosystem: "npm" # using npm will also use yarn
+    directory: "/digital-card" # Location of package manifests
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm" # using npm will also use yarn
+    directory: "/meme-generator" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      
+  - package-ecosystem: "npm" # using npm will also use yarn
+    directory: "/react-facts" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      
+  - package-ecosystem: "npm" # using npm will also use yarn
+    directory: "/travel-journal" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      
