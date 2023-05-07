@@ -1,11 +1,11 @@
 import Header from "./components/Header/Header";
-import Body from "./components/Body/Body";
+import Meme from "./components/Meme/Meme";
 
 function App() {
     return (
         <>
             <Header />
-            <Body />
+            <Meme />
         </>
     );
 }
