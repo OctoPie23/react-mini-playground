@@ -11,9 +11,9 @@ const Body = () => {
     const [memes, setMemes] = useState<Meme[]>([]);
 
     const [meme, setMeme] = useState({
-        topText: "",
-        bottomText: "",
-        randomImage: "",
+        topText: "when the most popular meme",
+        bottomText: "is one you've never heard before",
+        randomImage: "https://i.imgflip.com/3pdf2w.png",
     });
 
     useEffect(() => {
@@ -54,7 +54,7 @@ const Body = () => {
                 <input
                     type="text"
                     className=" rounded-md p-[15px] border border-solid border-[#D5D4D8]"
-                    placeholder="Top text"
+                    placeholder="Top text - optional"
                     name="topText"
                     value={meme.topText}
                     onChange={handleChange}
@@ -62,7 +62,7 @@ const Body = () => {
                 <input
                     type="text"
                     className=" rounded-md p-[15px] border border-solid border-[#D5D4D8]"
-                    placeholder="Bottom text"
+                    placeholder="Bottom text - optional"
                     name="bottomText"
                     value={meme.bottomText}
                     onChange={handleChange}
